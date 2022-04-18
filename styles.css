@@ -1,0 +1,122 @@
+body{ 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ecf0f3;
+}
+
+.container 
+{
+    width: 45%;
+    height: 49vh;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 12px 12px 20px #cbced1,
+               -12px -12px 20px #ffffff;
+}
+.display #screen
+{
+  width: 97%;
+  height: 70px;
+  font-size: 35px;
+  outline: none;
+  border: none;
+  text-align: right;
+  padding-right: .5em;
+  background: #ecf0f3;
+  border-radius: 6px;
+  box-shadow: inset 8px 8px 8px #cbced1,
+            inset -8px -8px 8px #ffffff;
+}
+.btns
+{
+    width: 100%;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rp{
+    position: relative;
+    bottom: 6px;
+    font-size: 6px;
+}
+.ac{
+    background: rgb(248, 40, 40);
+}
+.ce{
+    background: rgb(59, 246, 59);
+}
+
+.container .btns .row button{
+    width: 59px;
+    height: 23px;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    margin: 1.7px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 8px #00000020, 
+            -5px -5px 8px #ffffff;
+
+}
+
+@media only screen and (max-width: 600px){
+.container 
+{
+   width: 45%;
+   height: 49vh;
+   padding: 10px;
+   border-radius: 8px;
+   box-shadow: 12px 12px 20px #cbced1,
+           -12px -12px 20px #ffffff; 
+}
+.display #screen
+{
+  width: 97%;
+  height: 70px;
+  font-size: 35px;
+  outline: none;
+  border: none;
+  text-align: right;
+  padding-right: .5em;
+  background: #ecf0f3;
+  border-radius: 6px;
+  box-shadow: inset 8px 8px 8px #cbced1,
+            inset -8px -8px 8px #ffffff;
+}
+.btns
+{
+    width: 100%;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 74%;
+}
+.rp{
+    position: relative;
+    bottom: 6px;
+    font-size: 6px;
+}
+
+.container .btns .row button{
+    width: 44px;
+    height: 41px;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    margin: 1.7px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 8px #00000020, 
+               -5px -5px 8px #ffffff;
+
+}
+
+}
+
